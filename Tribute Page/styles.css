@@ -1,0 +1,27 @@
+body {
+ background-color: #453823;
+ color: white;
+}
+
+#title,
+#desc {
+ text-align: center;
+}
+
+main {
+ background-color: #C0A172;
+ padding: 20px;
+ max-width: 1200px;
+ font-family: sans-serif;
+ color: black;
+ margin: 10px auto;
+ text-align: center;
+}
+
+#image {
+ display: block;
+ width: 770px;
+ max-width: 100%;
+ margin: 0 auto;
+
+}
