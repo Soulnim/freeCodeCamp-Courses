@@ -1,0 +1,60 @@
+#main-doc {
+ display: grid;
+ grid-template-columns: 25% 75%;
+}
+
+@media only screen and (max-width: 600px) {
+ body {
+  transition: 0.3s;
+ }
+}
+
+#navbar {
+ position: fixed;
+ top: 0;
+ background-color: #9400D3;
+ margin: 0;
+ padding: 0;
+ height: 800px;
+}
+
+body {
+ font-family: sans-serif;
+ margin: 0;
+}
+
+a {
+ text-decoration: none;
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ border: 1px solid white;
+ text-align: center;
+ display: block;
+ margin: -10px;
+}
+
+#content {
+ padding-right: 40px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+header {
+ color: #9400D3;
+ font-size: 25px;
+ padding: 10px;
+}
+
+code {
+ background-color: lightgrey;
+ width: 100%;
+ margin: auto;
+}
+
+#header {
+ color: white;
+ font-size: 20px;
+ text-align: center;
+ padding-top: 10px;
+}
