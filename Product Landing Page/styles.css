@@ -1,0 +1,150 @@
+img {
+ width: 100%;
+ max-width: 50px;
+}
+
+#header {
+ width: 100%;
+ display: flex;
+ position: fixed;
+ background-color: white;
+ text-align: center;
+ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+#features {
+ width: 100%;
+ height: 100px;
+ display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
+ padding-top: 100px;
+}
+
+#features div {
+ border: 0.1px solid black;
+}
+
+#works {
+ width: 100%;
+ margin-top: 100px;
+ margin: auto;
+ text-align: center;
+}
+
+iframe {
+ text-align: center;
+ margin: auto;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 50px;
+}
+
+body {
+ margin: 0;
+}
+
+#nav-bar {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto;
+}
+
+
+a {
+ text-align: center;
+ text-decoration: none;
+ color: red;
+}
+
+ul {
+ display: flex;
+ list-style: none;
+}
+
+h1 i {
+ text-align: center;
+}
+
+.column {
+ text-align: center;
+}
+
+#subscribe {
+ font-family: sans-serif;
+ text-align: center;
+ color: red;
+ font-size: 25px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+form {
+ text-align: center;
+}
+
+input[type="email"]::placeholder {
+
+ /* Firefox, Chrome, Opera */
+ text-align: center;
+}
+
+#email {
+ width: 60%;
+ height: 30px;
+}
+
+#submit {
+ margin-top: 10px;
+ background-color: red;
+ color: white;
+ border: none;
+ width: 30%;
+ height: 30px;
+}
+
+#product {
+ text-align: center;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.product-name {
+ font-size: 20px;
+}
+
+hr {
+ margin-top: 50px;
+ margin-bottom: 30px;
+}
+
+footer {
+ text-align: center;
+}
+
+.desc {
+ margin-top: 10px;
+ background-color: red;
+ color: white;
+ border: none;
+ width: 30%;
+ height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+ body {
+  background-color: white;
+ }
+
+ #navigation {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+ }
+
+ #features {
+  height: 100px;
+ }
+}
