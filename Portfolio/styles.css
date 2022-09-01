@@ -1,0 +1,473 @@
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ html {
+  text-align: center;
+  scroll-behavior: smooth;
+ }
+
+ li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+ }
+
+ nav {
+  background-color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+ }
+
+ body {
+  margin: 0;
+  background-color: #202020;
+  color: white;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .nav-link {
+  color: black;
+ }
+
+ #welcome-section {
+  height: 640px;
+ }
+
+ #navbar-space {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+ #welcome-text {
+  padding: 250px 0;
+ }
+
+ .intro-text {
+  padding: 0;
+  margin: 0;
+ }
+
+ #projects {
+  height: 640px;
+  background-color: #282828;
+ }
+
+ #contacts {
+  height: 640px;
+ }
+
+ .container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+ }
+
+ img {
+  width: 200px;
+  padding-top: 10px;
+ }
+
+ #profile-link {
+  position: relative;
+  top: 500px;
+  color: white;
+ }
+
+ #contact-intro-1 {
+  color: white;
+  position: relative;
+  top: 300px;
+  font-size: 32px;
+ }
+
+ #contact-intro-2 {
+  position: relative;
+  top: 300px;
+ }
+
+ .socials {
+  margin: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 330px;
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ html {
+  text-align: center;
+  scroll-behavior: smooth;
+ }
+
+ li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+ }
+
+ nav {
+  background-color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+ }
+
+ body {
+  margin: 0;
+  background-color: #202020;
+  color: white;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .nav-link {
+  color: black;
+ }
+
+ #welcome-section {
+  height: 640px;
+ }
+
+ #navbar-space {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+ #welcome-text {
+  padding: 250px 0;
+ }
+
+ .intro-text {
+  padding: 0;
+  margin: 0;
+ }
+
+ #projects {
+  height: 640px;
+  background-color: #282828;
+ }
+
+ #contacts {
+  height: 640px;
+ }
+
+ .container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+ }
+
+ img {
+  width: 250px;
+  padding-top: 10px;
+ }
+
+ #profile-link {
+  position: relative;
+  top: 500px;
+  color: white;
+ }
+
+ #contact-intro-1 {
+  color: white;
+  position: relative;
+  top: 300px;
+  font-size: 32px;
+ }
+
+ #contact-intro-2 {
+  position: relative;
+  top: 300px;
+ }
+
+ .socials {
+  margin: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 330px;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ html {
+  text-align: center;
+  scroll-behavior: smooth;
+ }
+
+ li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+ }
+
+ nav {
+  background-color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+ }
+
+ body {
+  margin: 0;
+  background-color: #202020;
+  color: white;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .nav-link {
+  color: black;
+ }
+
+ #welcome-section {
+  height: 640px;
+ }
+
+ #navbar-space {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+ #welcome-text {
+  padding: 250px 0;
+ }
+
+ .intro-text {
+  padding: 0;
+  margin: 0;
+ }
+
+ #projects {
+  height: 640px;
+  background-color: #282828;
+ }
+
+ #contacts {
+  height: 640px;
+ }
+
+ .container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+ }
+
+ img {
+  width: 250px;
+  padding-top: 10px;
+ }
+
+ .socials {
+  margin: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 330px;
+ }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ html {
+  text-align: center;
+  scroll-behavior: smooth;
+ }
+
+ li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+ }
+
+ nav {
+  background-color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+ }
+
+ body {
+  margin: 0;
+  background-color: #202020;
+  color: white;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .nav-link {
+  color: black;
+ }
+
+ #welcome-section {
+  height: 640px;
+ }
+
+ #navbar-space {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+ #welcome-text {
+  padding: 250px 0;
+ }
+
+ .intro-text {
+  padding: 0;
+  margin: 0;
+ }
+
+ #projects {
+  height: 640px;
+  background-color: #282828;
+ }
+
+ #contacts {
+  height: 640px;
+ }
+
+ .container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+ }
+
+ img {
+  width: 250px;
+  padding-top: 10px;
+ }
+
+ #profile-link {
+  position: relative;
+  top: 500px;
+  color: white;
+ }
+
+ #contact-intro-1 {
+  color: white;
+  position: relative;
+  top: 300px;
+  font-size: 32px;
+ }
+
+ #contact-intro-2 {
+  position: relative;
+  top: 300px;
+ }
+
+ .socials {
+  margin: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 330px;
+ }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ html {
+  text-align: center;
+  scroll-behavior: smooth;
+ }
+
+ li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+ }
+
+ nav {
+  background-color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+ }
+
+ body {
+  margin: 0;
+  background-color: #202020;
+  color: white;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .nav-link {
+  color: black;
+ }
+
+ #welcome-section {
+  height: 640px;
+ }
+
+ #navbar-space {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+ #welcome-text {
+  padding: 250px 0;
+ }
+
+ .intro-text {
+  padding: 0;
+  margin: 0;
+ }
+
+ #projects {
+  height: 640px;
+  background-color: #282828;
+ }
+
+ #contacts {
+  height: 640px;
+ }
+
+ .container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+ }
+
+ #profile-link {
+  position: relative;
+  top: 500px;
+  color: white;
+ }
+
+ #contact-intro-1 {
+  color: white;
+  position: relative;
+  top: 300px;
+  font-size: 32px;
+ }
+
+ #contact-intro-2 {
+  position: relative;
+  top: 300px;
+ }
+
+ .socials {
+  margin: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 330px;
+ }
+}
